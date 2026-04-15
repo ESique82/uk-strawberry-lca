@@ -1,0 +1,101 @@
+# Emission factors for UK Strawberry LCA
+# Based on IPCC 2019 Refinement, adapted for soilless coir substrate
+# Last updated: 2026-04-14
+
+# =============================================================================
+# DIRECT N2O EMISSIONS (EF1)
+# =============================================================================
+direct_n2o:
+  # Baseline value for soilless coir substrate (Karlowsky et al., 2021; Halbert-Howard et al., 2020)
+  ef1_coir: 0.005  # kg N2O-N per kg N applied
+  
+  # IPCC defaults for comparison
+  ef1_ipcc_dry: 0.005   # IPCC 2019 dry climate
+  ef1_ipcc_wet: 0.016   # IPCC 2019 wet climate, synthetic fertiliser (Hergoualc'h et al., 2021)
+  
+  # Uncertainty (GSD² from pedigree matrix)
+  ef1_gsd2: 1.20
+
+# =============================================================================
+# VOLATILISATION (NH3)
+# =============================================================================
+volatilisation:
+  # UK-specific for calcium ammonium nitrate (Carswell et al., 2025)
+  frac_gasf_uk_can: 0.018  # 1.8%
+  
+  # Adjusted for drip fertigation (reduced volatilisation)
+  frac_gasf_drip: 0.02  # 2%
+  
+  # IPCC default
+  frac_gasf_ipcc: 0.11  # 11% (IPCC 2019 Table 11.3)
+  
+  # Indirect N2O from volatilised N
+  ef4: 0.014  # kg N2O-N per kg NH3-N volatilised
+  ef4_gsd2: 1.10
+
+# =============================================================================
+# LEACHING
+# =============================================================================
+leaching:
+  # Semi-closed fertigation with partial recirculation
+  frac_leach_semiclosed: 0.10  # 10%
+  
+  # IPCC default for open-field agriculture
+  frac_leach_ipcc: 0.24  # 24%
+  
+  # Indirect N2O from leached N
+  ef5: 0.011  # kg N2O-N per kg NO3-N leached
+  ef5_gsd2: 1.10
+
+# =============================================================================
+# SENSITIVITY ANALYSIS SCENARIOS
+# =============================================================================
+sensitivity_scenarios:
+  baseline:
+    description: "Coir-adjusted (semi-closed fertigation, aerobic substrate)"
+    frac_leach: 0.10
+    ef1: 0.005
+  
+  ipcc_defaults:
+    description: "Standard IPCC Tier 1 field agriculture values"
+    frac_leach: 0.24
+    ef1: 0.010
+  
+  ipcc_leaching_only:
+    description: "High leaching, low direct EF"
+    frac_leach: 0.24
+    ef1: 0.005
+  
+  ipcc_direct_only:
+    description: "Low leaching, IPCC direct EF"
+    frac_leach: 0.10
+    ef1: 0.010
+  
+  low_estimate:
+    description: "Near-closed system, minimal emissions"
+    frac_leach: 0.05
+    ef1: 0.002
+  
+  high_estimate:
+    description: "Partial recirculation, intermediate EF"
+    frac_leach: 0.15
+    ef1: 0.007
+
+# =============================================================================
+# GWP VALUES (AR6)
+# =============================================================================
+gwp_ar6:
+  n2o: 273  # GWP100 for N2O
+  ch4_biogenic: 27  # GWP100 for biogenic CH4
+  ch4_fossil: 29.8  # GWP100 for fossil CH4
+  source: "Forster et al. (2021), IPCC AR6 WG1 Chapter 7"
+
+# =============================================================================
+# REFERENCES
+# =============================================================================
+references:
+  - "Carswell et al. (2025). UK Agriculture Ammonia Emission Report 1990-2021. Defra Contract C21258."
+  - "Forster et al. (2021). IPCC AR6 WG1 Chapter 7."
+  - "Halbert-Howard et al. (2020). Environ. Sci. Pollut. Res. 28:10461-10473."
+  - "IPCC (2019). 2019 Refinement to the 2006 IPCC Guidelines."
+  - "Karlowsky et al. (2021). Front. Sustain. Food Syst. 5:626053."

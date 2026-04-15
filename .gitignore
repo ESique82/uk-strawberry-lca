@@ -1,0 +1,41 @@
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SimaPro
+*.spa
+*.spd
+
+# Sensitive data
+*_CONFIDENTIAL*
+*.secret
+
+# Large output files (regenerable)
+# results/monte_carlo/*.csv
+# results/figures/*.png
