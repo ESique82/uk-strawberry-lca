@@ -1,101 +1,338 @@
-# Emission factors for UK Strawberry LCA
-# Based on IPCC 2019 Refinement, adapted for soilless coir substrate
-# Last updated: 2026-04-14
+# =============================================================================
+# Emission Factors and Parameters — UK Strawberry LCA
+# =============================================================================
+# Study: Cradle-to-farm-gate LCA of UK protected strawberry production
+# Systems: Polytunnel, heated glasshouse, non-heated glasshouse (2020-2023)
+# Functional unit: 1 kg strawberries at farm gate
+# Software: SimaPro (ecoinvent v3.8); Environmental Footprint 3.1 method
+# Last updated: 2026-04-15
+# =============================================================================
+
 
 # =============================================================================
-# DIRECT N2O EMISSIONS (EF1)
+# 1. GLOBAL WARMING POTENTIALS (GWP100, AR6)
+# =============================================================================
+gwp_ar6:
+  co2: 1.0                  # kg CO2-eq per kg CO2 (reference gas)
+  n2o: 273                  # kg CO2-eq per kg N2O
+  ch4_fossil: 29.8          # kg CO2-eq per kg fossil CH4
+  ch4_biogenic: 27.0        # kg CO2-eq per kg biogenic CH4
+  source: "Forster et al. (2021). IPCC AR6 WG1 Chapter 7, Table 7.SM.7."
+  note: >
+    Environmental Footprint 3.1 method uses AR6 GWP100 values. Biogenic CH4
+    applies to coir substrate decomposition; fossil CH4 applies to fuel combustion.
+
+
+# =============================================================================
+# 2. N2O EMISSION FACTORS — DIRECT (EF1)
 # =============================================================================
 direct_n2o:
-  # Baseline value for soilless coir substrate (Karlowsky et al., 2021; Halbert-Howard et al., 2020)
-  ef1_coir: 0.005  # kg N2O-N per kg N applied
-  
-  # IPCC defaults for comparison
-  ef1_ipcc_dry: 0.005   # IPCC 2019 dry climate
-  ef1_ipcc_wet: 0.016   # IPCC 2019 wet climate, synthetic fertiliser (Hergoualc'h et al., 2021)
-  
-  # Uncertainty (GSD² from pedigree matrix)
+  ef1_coir: 0.005
+  # Site-specific EF for soilless tabletop coir systems, adjusted downward from
+  # IPCC default. Justified by: (1) controlled aerobic drainage conditions in
+  # coir substrate; (2) low cation exchange capacity of coir limiting N retention;
+  # (3) farm-level measurements consistent with published data for soilless systems.
+  # Supported by Karlowsky et al. (2021) and Halbert-Howard et al. (2020).
+  unit: "kg N2O-N per kg N applied"
+
+  ef1_ipcc_wet: 0.016
+  # IPCC Tier 1 default for mineral N fertilisers in wet climates.
+  # Used in sensitivity analysis (IPCC defaults scenario).
+  # Source: Hergoualc'h et al. (2021), Table 11.1, IPCC 2019 Refinement.
+  unit_ipcc: "kg N2O-N per kg N applied"
+
+  ef1_ipcc_dry: 0.005
+  # IPCC Tier 1 default for mineral N fertilisers in dry climates.
+  # Included for completeness; wet climate value applies to UK conditions.
+  # Source: Hergoualc'h et al. (2021), Table 11.1, IPCC 2019 Refinement.
+
   ef1_gsd2: 1.20
+  # Geometric standard deviation squared (GSD²) for Monte Carlo uncertainty.
+  # Derived from pedigree matrix assessment (see Supplementary Table S2).
+  # Reflects uncertainty in extrapolating soilless system measurements.
+
+  sources:
+    - "Halbert-Howard et al. (2020). Environ. Sci. Pollut. Res. 28:10461-10473."
+    - "Hergoualc'h et al. (2021). Chapter 11 in: IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories."
+    - "Karlowsky et al. (2021). Front. Sustain. Food Syst. 5:626053."
+
 
 # =============================================================================
-# VOLATILISATION (NH3)
+# 3. N2O EMISSION FACTORS — INDIRECT: VOLATILISATION (EF4)
 # =============================================================================
 volatilisation:
-  # UK-specific for calcium ammonium nitrate (Carswell et al., 2025)
-  frac_gasf_uk_can: 0.018  # 1.8%
-  
-  # Adjusted for drip fertigation (reduced volatilisation)
-  frac_gasf_drip: 0.02  # 2%
-  
-  # IPCC default
-  frac_gasf_ipcc: 0.11  # 11% (IPCC 2019 Table 11.3)
-  
-  # Indirect N2O from volatilised N
-  ef4: 0.014  # kg N2O-N per kg NH3-N volatilised
+  ef4: 0.014
+  # Indirect N2O emission factor for volatilised N (NH3 + NOx).
+  # Source: IPCC 2019 Refinement, Table 11.3.
+  unit: "kg N2O-N per kg NH3-N + NOx-N volatilised"
   ef4_gsd2: 1.10
+  # GSD² from pedigree matrix (see Supplementary Table S2).
+
+  frac_gasf_drip: 0.02
+  # Fraction of applied fertiliser N volatilised as NH3 under drip fertigation.
+  # UK-specific value for calcium ammonium nitrate applied via drip irrigation.
+  # Adjusted downward from IPCC default (0.11) to reflect enclosed fertigation
+  # conditions in protected horticulture.
+  # Sources: Carswell et al. (2025); AHDB (2020).
+  unit_frac: "kg NH3-N + NOx-N per kg N applied"
+
+  frac_gasf_uk_can: 0.018
+  # UK-specific Frac_GASF for calcium ammonium nitrate (broadcast).
+  # Included for reference; drip-adjusted value (0.02) used in main analysis.
+  # Source: Carswell et al. (2025).
+
+  frac_gasf_ipcc: 0.11
+  # IPCC Tier 1 default Frac_GASF for synthetic fertilisers.
+  # Used in sensitivity analysis (IPCC defaults scenario).
+  # Source: Hergoualc'h et al. (2021), Table 11.3, IPCC 2019 Refinement.
+
+  sources:
+    - "Carswell et al. (2025). UK Agriculture Ammonia Emission Report 1990-2021. Defra Contract C21258."
+    - "Hergoualc'h et al. (2021). Chapter 11 in: IPCC 2019 Refinement to the 2006 IPCC Guidelines."
+    - "AHDB (2020). Nutrient Management Guide (RB209). AHDB, Stoneleigh."
+
 
 # =============================================================================
-# LEACHING
+# 4. N2O EMISSION FACTORS — INDIRECT: LEACHING (EF5)
 # =============================================================================
 leaching:
-  # Semi-closed fertigation with partial recirculation
-  frac_leach_semiclosed: 0.10  # 10%
-  
-  # IPCC default for open-field agriculture
-  frac_leach_ipcc: 0.24  # 24%
-  
-  # Indirect N2O from leached N
-  ef5: 0.011  # kg N2O-N per kg NO3-N leached
+  ef5: 0.011
+  # Indirect N2O emission factor for leached/runoff N.
+  # Source: IPCC 2019 Refinement, Table 11.3.
+  unit: "kg N2O-N per kg N leached/runoff"
   ef5_gsd2: 1.10
+  # GSD² from pedigree matrix (see Supplementary Table S2).
+
+  frac_leach_semiclosed: 0.10
+  # Fraction of applied N lost via leaching in semi-closed fertigation systems.
+  # Adjusted from IPCC default (0.24) to reflect partial recirculation and
+  # controlled drainage in tabletop coir systems with drain-water management.
+  # Conservative estimate; supported by drainage control characteristics
+  # of coir substrate and system design.
+  unit_frac: "kg N leached per kg N applied"
+
+  frac_leach_closed: 0.02
+  # Fraction of N lost in fully closed recirculation systems.
+  # Included for sensitivity analysis lower-bound scenario.
+
+  frac_leach_ipcc: 0.24
+  # IPCC Tier 1 default Frac_LEACH for open-field agriculture (wet climates).
+  # Used in sensitivity analysis (IPCC defaults scenario).
+  # Source: Hergoualc'h et al. (2021), Table 11.3, IPCC 2019 Refinement.
+
+  sources:
+    - "Hergoualc'h et al. (2021). Chapter 11 in: IPCC 2019 Refinement to the 2006 IPCC Guidelines."
+
 
 # =============================================================================
-# SENSITIVITY ANALYSIS SCENARIOS
+# 5. SENSITIVITY ANALYSIS SCENARIOS
+# =============================================================================
+# Note: All scenarios vary only EF1 and Frac_LEACH. EF4, EF5, and Frac_GASF
+# are held constant at values above, as these are less contested in the
+# soilless context.
 # =============================================================================
 sensitivity_scenarios:
   baseline:
     description: "Coir-adjusted (semi-closed fertigation, aerobic substrate)"
-    frac_leach: 0.10
     ef1: 0.005
-  
+    frac_leach: 0.10
+
   ipcc_defaults:
     description: "Standard IPCC Tier 1 field agriculture values"
+    ef1: 0.016        # wet climate default
     frac_leach: 0.24
-    ef1: 0.010
-  
+
   ipcc_leaching_only:
-    description: "High leaching, low direct EF"
-    frac_leach: 0.24
+    description: "IPCC leaching fraction with coir-adjusted direct EF"
     ef1: 0.005
-  
+    frac_leach: 0.24
+
   ipcc_direct_only:
-    description: "Low leaching, IPCC direct EF"
+    description: "IPCC direct EF (wet) with coir-adjusted leaching"
+    ef1: 0.016
     frac_leach: 0.10
-    ef1: 0.010
-  
+
   low_estimate:
-    description: "Near-closed system, minimal emissions"
-    frac_leach: 0.05
+    description: "Near-closed system, minimal emissions (lower bound)"
     ef1: 0.002
-  
+    frac_leach: 0.05
+
   high_estimate:
-    description: "Partial recirculation, intermediate EF"
-    frac_leach: 0.15
+    description: "Partial recirculation, intermediate EF (upper bound)"
     ef1: 0.007
+    frac_leach: 0.15
+
 
 # =============================================================================
-# GWP VALUES (AR6)
+# 6. FERTILISER PRODUCTION EMISSION FACTORS
 # =============================================================================
-gwp_ar6:
-  n2o: 273  # GWP100 for N2O
-  ch4_biogenic: 27  # GWP100 for biogenic CH4
-  ch4_fossil: 29.8  # GWP100 for fossil CH4
-  source: "Forster et al. (2021), IPCC AR6 WG1 Chapter 7"
+# Source: ecoinvent v3.8 via SimaPro, characterised using EF 3.1 method.
+# These values are the background system characterisation factors and are
+# not independently adjusted — SimaPro/ecoinvent is the citable source.
+# =============================================================================
+fertiliser_production:
+  ef_n_production: 8.66
+  # kg CO2-eq per kg N applied (calcium ammonium nitrate, as N {RoW})
+  # Includes production energy and upstream processes.
+  unit: "kg CO2-eq per kg N"
+
+  ef_p2o5_production: 1.46
+  # kg CO2-eq per kg P2O5 (triple superphosphate {RER})
+  unit: "kg CO2-eq per kg P2O5"
+
+  ef_k2o_production: 0.307
+  # kg CO2-eq per kg K2O (potassium chloride {RER})
+  unit: "kg CO2-eq per kg K2O"
+
+  source: "ecoinvent v3.8 via SimaPro 9.x; characterisation: Environmental Footprint 3.1 method."
+
 
 # =============================================================================
-# REFERENCES
+# 7. ENERGY EMISSION FACTORS
+# =============================================================================
+# Note: Electricity emission factors for seedling-producing countries are used
+# only for transport distance calculations (seedling country of origin).
+# UK electricity is the primary factor for farm operations.
+# Background processes are modelled in SimaPro; values here document the
+# Python pre-processing step.
+# =============================================================================
+energy:
+  ef_electricity_uk: 0.233
+  # kg CO2-eq per kWh; UK national grid, 2020 average.
+  # Source: BEIS (2021). UK Government GHG Conversion Factors for Company Reporting.
+  unit: "kg CO2-eq per kWh"
+
+  ef_electricity_nl: 0.379
+  # kg CO2-eq per kWh; Netherlands grid, 2020.
+  # Used for seedlings sourced from the Netherlands.
+  # Source: IEA (2022). Electricity Information: Netherlands.
+
+  ef_electricity_es: 0.200
+  # kg CO2-eq per kWh; Spain grid, approximate 2020.
+  # Used for seedlings sourced from Spain.
+  # Source: IEA (2022). Electricity Information: Spain.
+  note: "Placeholder — verify against ecoinvent 3.8 market for electricity, ES."
+
+  ef_electricity_it: 0.350
+  # kg CO2-eq per kWh; Italy grid, approximate 2020.
+  # Used for seedlings sourced from Italy.
+  # Source: IEA (2022). Electricity Information: Italy.
+  note: "Placeholder — verify against ecoinvent 3.8 market for electricity, IT."
+
+  ef_electricity_eu: 0.275
+  # kg CO2-eq per kWh; EU average, used as fallback for unknown country of origin.
+  # Source: IEA (2022). Electricity Information: World.
+  note: "Fallback only — no records with unknown origin expected in final dataset."
+
+  ef_diesel: 0.200
+  # kg CO2-eq per litre of diesel (agricultural machinery combustion).
+  # Source: BEIS (2021). UK Government GHG Conversion Factors — Fuels.
+  unit: "kg CO2-eq per litre"
+  note: >
+    This value is used in Python pre-processing only. Farm diesel use is modelled
+    in SimaPro using ecoinvent process 'diesel, burned in agricultural machinery {GLO}'.
+    Confirm consistency with SimaPro characterisation output.
+
+  sources:
+    - "BEIS (2021). UK Government GHG Conversion Factors for Company Reporting 2021. Department for Business, Energy and Industrial Strategy."
+    - "IEA (2022). Electricity Information 2022. International Energy Agency, Paris."
+
+
+# =============================================================================
+# 8. MATERIAL EMISSION FACTORS
+# =============================================================================
+# Note: These are used in Python pre-processing for initial estimation.
+# Final values for SimaPro are drawn from ecoinvent background processes.
+# =============================================================================
+materials:
+  ef_plastic: 1.8
+  # kg CO2-eq per kg plastic film (low-density polyethylene, LDPE).
+  # Approximate value for production; SimaPro uses ecoinvent process
+  # 'polyethylene, low density, granulate {RER}'.
+  unit: "kg CO2-eq per kg"
+
+  ef_fleece: 2.1
+  # kg CO2-eq per kg polypropylene fleece.
+  # SimaPro uses ecoinvent process 'polypropylene, granulate {RER}'.
+  unit: "kg CO2-eq per kg"
+
+  ef_coir: 0.15
+  # kg CO2-eq per kg coir substrate (coconut fibre).
+  # Approximate value; subject to data availability in ecoinvent.
+  unit: "kg CO2-eq per kg"
+  note: "Verify against best available ecoinvent dataset for coir/coconut processing."
+
+  plastic_density: 0.15
+  # kg per m² of plastic film (greenhouse covering).
+  # Density assumption used to convert area (m²) to mass (kg).
+  unit: "kg per m²"
+
+  fleece_density: 0.08
+  # kg per m² of horticultural fleece.
+  unit: "kg per m²"
+
+  source: >
+    Material EFs are provisional estimates for Python pre-processing.
+    Peer-reviewed sources and ecoinvent background processes are used in
+    SimaPro for final LCIA. See ecoinvent v3.8 documentation for process details.
+
+
+# =============================================================================
+# 9. TRANSPORT — SEEDLING SUPPLY
+# =============================================================================
+transport:
+  ef_road_freight: 0.0962
+  # kg CO2-eq per tonne-kilometre (tkm).
+  # ecoinvent process: 'Transport, freight, lorry 16-32t, EURO5 {RER}'
+  # Characterised using Environmental Footprint 3.1 method.
+  unit: "kg CO2-eq per tkm"
+
+  distances_km:
+    netherlands: 707
+    spain: 1844
+    italy: 1784
+    # Road distances from production regions to farm gate (Herefordshire, UK).
+    # Calculated using IMPARGO HGV Route Planner (https://www.impargo.de),
+    # accessed 2024. Routes reflect typical lorry freight paths.
+
+  seedling_weight_kg: 0.178
+  # Mass per seedling plant (kg).
+  # Used to convert number of plants to total freight mass (tonnes).
+  # Source: Farm production records (2020-2023).
+  unit: "kg per plant"
+
+  sources:
+    - "IMPARGO HGV Route Planner (2024). https://www.impargo.de. Accessed 2024."
+    - "ecoinvent v3.8. Transport, freight, lorry 16-32t, EURO5 {RER}. Swiss Centre for Life Cycle Inventories."
+
+
+# =============================================================================
+# 10. WATER
+# =============================================================================
+water:
+  ef_irrigation: 0.001
+  # kg CO2-eq per m³ water (pumping and treatment — pre-processing estimate).
+  # Note: Water use impact is assessed in SimaPro using the EF 3.1 water
+  # scarcity method (m³ world-eq deprived), not this CO2-eq factor.
+  unit: "kg CO2-eq per m³"
+  note: >
+    This factor is used only in Python pre-processing for a rough energy
+    estimate of water pumping. The peer-reviewed water scarcity impact is
+    calculated in SimaPro using the Environmental Footprint 3.1 method.
+
+
+# =============================================================================
+# 11. FULL REFERENCE LIST
 # =============================================================================
 references:
-  - "Carswell et al. (2025). UK Agriculture Ammonia Emission Report 1990-2021. Defra Contract C21258."
-  - "Forster et al. (2021). IPCC AR6 WG1 Chapter 7."
-  - "Halbert-Howard et al. (2020). Environ. Sci. Pollut. Res. 28:10461-10473."
-  - "IPCC (2019). 2019 Refinement to the 2006 IPCC Guidelines."
-  - "Karlowsky et al. (2021). Front. Sustain. Food Syst. 5:626053."
+  - "AHDB (2020). Nutrient Management Guide (RB209). Agriculture and Horticulture Development Board, Stoneleigh."
+  - "BEIS (2021). UK Government GHG Conversion Factors for Company Reporting 2021. Department for Business, Energy and Industrial Strategy, London."
+  - "Carswell et al. (2025). UK Agriculture Ammonia Emission Report 1990-2021. Defra Contract C21258. UKCEH, Bangor."
+  - "ecoinvent Centre (2023). ecoinvent database v3.8. Swiss Centre for Life Cycle Inventories, Zurich."
+  - "European Commission (2021). Environmental Footprint 3.1 Characterisation Factors. Publications Office of the EU, Luxembourg."
+  - "Forster et al. (2021). The Earth's Energy Budget, Climate Feedbacks and Climate Sensitivity. In: IPCC AR6 WG1 Chapter 7. Cambridge University Press."
+  - "Halbert-Howard et al. (2020). Evaluating environmental impacts of growing media with life cycle assessment for Mentha spicata L. production in an urban indoor farming system. Environ. Sci. Pollut. Res. 28:10461-10473."
+  - "Hergoualc'h et al. (2021). Chapter 11: N2O Emissions from Managed Soils. In: IPCC 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories. IPCC, Geneva."
+  - "IEA (2022). Electricity Information 2022. International Energy Agency, Paris."
+  - "IMPARGO HGV Route Planner (2024). https://www.impargo.de. Accessed 2024."
+  - "Karlowsky et al. (2021). Life cycle assessment of local and hydroponic herb production in Germany. Front. Sustain. Food Syst. 5:626053."
