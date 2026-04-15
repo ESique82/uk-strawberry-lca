@@ -81,9 +81,7 @@ Full methods are documented in `docs/strawberry_lca_methods_draft_v3.md`. Key me
 - **Data**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - **Code**: [MIT License](LICENSE)
 
-## Contact
 
-[Your contact information]
 
 ## Acknowledgements
 
