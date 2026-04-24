@@ -7,7 +7,7 @@ Life cycle assessment of protected strawberry (*Fragaria × ananassa*) productio
 
 ## Citation
 
-> [Author names] (2026). Environmental impacts of protected strawberry production in the United Kingdom: A life cycle assessment comparing cultivation systems. *International Journal of Life Cycle Assessment*. [DOI pending]
+TBD
 
 ## Overview
 
@@ -83,6 +83,4 @@ Full methods are documented in `docs/strawberry_lca_methods_draft_v3.md`. Key me
 
 
 
-## Acknowledgements
 
-[Funding acknowledgements, farm collaboration, etc.]
