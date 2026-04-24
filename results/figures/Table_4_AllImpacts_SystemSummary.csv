@@ -1,0 +1,85 @@
+"System","Impact_Category","Unit","Mean_pooled","SD_pooled","Avg_CV","Avg_CI_Lower","Avg_CI_Upper"
+"Polytunnel","Acidification","mol H+ eq",0.0031,5e-04,54.2228,0.0015,0.0071
+"Non-heated Glasshouse","Acidification","mol H+ eq",0.0037,6e-04,18.2318,0.0026,0.0052
+"Heated Glasshouse","Acidification","mol H+ eq",0.0056,0.0018,44.5626,0.0028,0.011
+"Polytunnel","Climate change","kg CO2 eq",0.5065,0.0725,46.9572,0.2786,1.0054
+"Non-heated Glasshouse","Climate change","kg CO2 eq",0.6752,0.1033,15.6037,0.5065,0.9201
+"Heated Glasshouse","Climate change","kg CO2 eq",0.9919,0.3092,46.9471,0.5217,2.0734
+"Polytunnel","Climate change - Biogenic","kg CO2 eq",5e-04,1e-04,112.5503,2e-04,0.0018
+"Non-heated Glasshouse","Climate change - Biogenic","kg CO2 eq",6e-04,1e-04,85.3699,2e-04,0.0019
+"Heated Glasshouse","Climate change - Biogenic","kg CO2 eq",7e-04,3e-04,86.8259,3e-04,0.0022
+"Polytunnel","Climate change - Fossil","kg CO2 eq",0.5055,0.0722,46.9802,0.2779,1.0024
+"Non-heated Glasshouse","Climate change - Fossil","kg CO2 eq",0.6739,0.1031,15.6086,0.5055,0.9185
+"Heated Glasshouse","Climate change - Fossil","kg CO2 eq",0.9901,0.3085,46.9769,0.5207,2.0702
+"Polytunnel","Climate change - Land use and LU change","kg CO2 eq",5e-04,1e-04,53.0126,2e-04,0.0011
+"Non-heated Glasshouse","Climate change - Land use and LU change","kg CO2 eq",7e-04,1e-04,43.003,2e-04,0.0014
+"Heated Glasshouse","Climate change - Land use and LU change","kg CO2 eq",0.0011,3e-04,69.0848,2e-04,0.0029
+"Polytunnel","Confidence interval: ","95",NA,NA,NA,NA,NA
+"Non-heated Glasshouse","Confidence interval: ","95",NA,NA,NA,NA,NA
+"Heated Glasshouse","Confidence interval: ","95",NA,NA,NA,NA,NA
+"Polytunnel","Ecotoxicity, freshwater - inorganics","CTUe",2.9933,0.1594,358.8695,-16.2171,23.6598
+"Non-heated Glasshouse","Ecotoxicity, freshwater - inorganics","CTUe",5.6529,1.2938,145.1859,-10.4783,22.429
+"Heated Glasshouse","Ecotoxicity, freshwater - inorganics","CTUe",10.2579,2.8093,130.293,-14.3358,38.1567
+"Polytunnel","Ecotoxicity, freshwater - organics - p.1","CTUe",0.8345,0.2587,49.2187,0.3652,1.8159
+"Non-heated Glasshouse","Ecotoxicity, freshwater - organics - p.1","CTUe",0.7295,0.1039,29.649,0.4072,1.243
+"Heated Glasshouse","Ecotoxicity, freshwater - organics - p.1","CTUe",0.9765,0.3558,43.8453,0.4703,1.9569
+"Polytunnel","Ecotoxicity, freshwater - organics - p.2","CTUe",0.0509,0.013,45.2113,0.0241,0.1083
+"Non-heated Glasshouse","Ecotoxicity, freshwater - organics - p.2","CTUe",0.0417,0.0058,27.1412,0.0256,0.0694
+"Heated Glasshouse","Ecotoxicity, freshwater - organics - p.2","CTUe",0.0594,0.0197,45.1537,0.029,0.1201
+"Polytunnel","Ecotoxicity, freshwater - part 1","CTUe",2.5559,0.2379,417.429,-16.6283,22.4125
+"Non-heated Glasshouse","Ecotoxicity, freshwater - part 1","CTUe",4.2597,0.9907,191.7323,-11.9688,20.7588
+"Heated Glasshouse","Ecotoxicity, freshwater - part 1","CTUe",7.6163,2.1922,166.3056,-16.6588,34.1939
+"Polytunnel","Ecotoxicity, freshwater - part 2","CTUe",1.3226,0.1856,99.8268,0.4644,4.199
+"Non-heated Glasshouse","Ecotoxicity, freshwater - part 2","CTUe",2.1644,0.4136,39.306,1.0515,4.3354
+"Heated Glasshouse","Ecotoxicity, freshwater - part 2","CTUe",3.6776,0.9951,87.1925,1.0114,11.8181
+"Polytunnel","Eutrophication, freshwater","kg P eq",1e-04,0,59.9585,0,2e-04
+"Non-heated Glasshouse","Eutrophication, freshwater","kg P eq",1e-04,0,40.9798,1e-04,2e-04
+"Heated Glasshouse","Eutrophication, freshwater","kg P eq",2e-04,0,54.7158,1e-04,4e-04
+"Polytunnel","Eutrophication, marine","kg N eq",0.0026,5e-04,134.5586,6e-04,0.0097
+"Non-heated Glasshouse","Eutrophication, marine","kg N eq",8e-04,1e-04,24.2717,5e-04,0.0013
+"Heated Glasshouse","Eutrophication, marine","kg N eq",0.0012,4e-04,40.426,6e-04,0.0022
+"Polytunnel","Eutrophication, terrestrial","mol N eq",0.0105,0.0024,61.0705,0.0044,0.0258
+"Non-heated Glasshouse","Eutrophication, terrestrial","mol N eq",0.0113,0.0018,22.9064,0.0074,0.0174
+"Heated Glasshouse","Eutrophication, terrestrial","mol N eq",0.0166,0.0059,48.6121,0.0081,0.0334
+"Polytunnel","Human toxicity, cancer","CTUh",0,0,121.8584,0,0
+"Non-heated Glasshouse","Human toxicity, cancer","CTUh",0,0,102.8714,0,0
+"Heated Glasshouse","Human toxicity, cancer","CTUh",0,0,112.8008,0,0
+"Polytunnel","Human toxicity, cancer - inorganics","CTUh",0,0,-1873.3255,0,0
+"Non-heated Glasshouse","Human toxicity, cancer - inorganics","CTUh",0,0,1328.3721,0,0
+"Heated Glasshouse","Human toxicity, cancer - inorganics","CTUh",0,0,1350.8736,0,0
+"Polytunnel","Human toxicity, cancer - organics","CTUh",0,0,48.8256,0,0
+"Non-heated Glasshouse","Human toxicity, cancer - organics","CTUh",0,0,29.7625,0,0
+"Heated Glasshouse","Human toxicity, cancer - organics","CTUh",0,0,44.1716,0,0
+"Polytunnel","Human toxicity, non-cancer","CTUh",0,0,-19683.953,0,0
+"Non-heated Glasshouse","Human toxicity, non-cancer","CTUh",0,0,3904.393,0,0
+"Heated Glasshouse","Human toxicity, non-cancer","CTUh",0,0,-20540.5555,0,0
+"Polytunnel","Human toxicity, non-cancer - inorganics","CTUh",0,0,-13955.4426,0,0
+"Non-heated Glasshouse","Human toxicity, non-cancer - inorganics","CTUh",0,0,4086.9678,0,0
+"Heated Glasshouse","Human toxicity, non-cancer - inorganics","CTUh",0,0,-8334.7275,0,0
+"Polytunnel","Human toxicity, non-cancer - organics","CTUh",0,0,48.816,0,0
+"Non-heated Glasshouse","Human toxicity, non-cancer - organics","CTUh",0,0,28.6284,0,0
+"Heated Glasshouse","Human toxicity, non-cancer - organics","CTUh",0,0,56.9034,0,0
+"Polytunnel","Ionising radiation","kBq U-235 eq",0.0839,0.0066,115.2447,0.022,0.3117
+"Non-heated Glasshouse","Ionising radiation","kBq U-235 eq",0.0938,0.0213,94.1606,0.0372,0.2949
+"Heated Glasshouse","Ionising radiation","kBq U-235 eq",0.1162,0.0344,95.525,0.0383,0.4054
+"Polytunnel","Land use","Pt",19.0866,1.1385,37.7776,9.7491,35.4197
+"Non-heated Glasshouse","Land use","Pt",20.5021,3.7335,15.5832,17.8065,28.8093
+"Heated Glasshouse","Land use","Pt",24.1222,7.2674,18.7149,20.1694,34.7155
+"Polytunnel","Ozone depletion","kg CFC11 eq",0,0,44.3255,0,0
+"Non-heated Glasshouse","Ozone depletion","kg CFC11 eq",0,0,17.2917,0,0
+"Heated Glasshouse","Ozone depletion","kg CFC11 eq",0,0,46.1712,0,0
+"Polytunnel","Particulate matter","disease inc.",0,0,49.5639,0,0
+"Non-heated Glasshouse","Particulate matter","disease inc.",0,0,21.35,0,0
+"Heated Glasshouse","Particulate matter","disease inc.",0,0,45.3949,0,0
+"Polytunnel","Photochemical ozone formation","kg NMVOC eq",0.0025,6e-04,44.8273,0.0012,0.0051
+"Non-heated Glasshouse","Photochemical ozone formation","kg NMVOC eq",0.0029,4e-04,21.1834,0.002,0.0043
+"Heated Glasshouse","Photochemical ozone formation","kg NMVOC eq",0.0039,0.0015,37.6487,0.0022,0.0072
+"Polytunnel","Resource use, fossils","MJ",7.5173,0.8543,38.3515,4.2429,13.9924
+"Non-heated Glasshouse","Resource use, fossils","MJ",9.3557,1.4797,15.5552,6.931,12.7248
+"Heated Glasshouse","Resource use, fossils","MJ",13.1948,4.1414,41.2362,7.4048,25.6876
+"Polytunnel","Resource use, minerals and metals","kg Sb eq",0,0,66.639,0,0
+"Non-heated Glasshouse","Resource use, minerals and metals","kg Sb eq",0,0,43.864,0,0
+"Heated Glasshouse","Resource use, minerals and metals","kg Sb eq",0,0,74.5194,0,0
+"Polytunnel","Water use","m3 depriv.",18.1033,1.1391,74.8567,0.7616,51.1974
+"Non-heated Glasshouse","Water use","m3 depriv.",15.4677,4.1879,36.4649,3.8724,25.7978
+"Heated Glasshouse","Water use","m3 depriv.",22.0303,5.1114,49.2282,3.2737,48.1788

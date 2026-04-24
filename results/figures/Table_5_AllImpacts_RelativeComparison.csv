@@ -1,0 +1,28 @@
+"Impact_Category","Unit","Polytunnel","Non-heated Glasshouse","Heated Glasshouse","PT_vs_HG_pct","NG_vs_HG_pct","PT_vs_NG_pct"
+"Acidification","mol H+ eq",0.0031,0.0037,0.0056,44.6,33.9,16.2
+"Climate change","kg CO2 eq",0.5065,0.6752,0.9919,48.9,31.9,25
+"Climate change - Biogenic","kg CO2 eq",5e-04,6e-04,7e-04,28.6,14.3,16.7
+"Climate change - Fossil","kg CO2 eq",0.5055,0.6739,0.9901,48.9,31.9,25
+"Climate change - Land use and LU change","kg CO2 eq",5e-04,7e-04,0.0011,54.5,36.4,28.6
+"Ecotoxicity, freshwater - inorganics","CTUe",2.9933,5.6529,10.2579,70.8,44.9,47
+"Ecotoxicity, freshwater - organics - p.1","CTUe",0.8345,0.7295,0.9765,14.5,25.3,-14.4
+"Ecotoxicity, freshwater - organics - p.2","CTUe",0.0509,0.0417,0.0594,14.3,29.8,-22.1
+"Ecotoxicity, freshwater - part 1","CTUe",2.5559,4.2597,7.6163,66.4,44.1,40
+"Ecotoxicity, freshwater - part 2","CTUe",1.3226,2.1644,3.6776,64,41.1,38.9
+"Eutrophication, freshwater","kg P eq",1e-04,1e-04,2e-04,50,50,0
+"Eutrophication, marine","kg N eq",0.0026,8e-04,0.0012,-116.7,33.3,-225
+"Eutrophication, terrestrial","mol N eq",0.0105,0.0113,0.0166,36.7,31.9,7.1
+"Human toxicity, cancer","CTUh",0,0,0,NA,NA,NA
+"Human toxicity, cancer - inorganics","CTUh",0,0,0,NA,NA,NA
+"Human toxicity, cancer - organics","CTUh",0,0,0,NA,NA,NA
+"Human toxicity, non-cancer","CTUh",0,0,0,NA,NA,NA
+"Human toxicity, non-cancer - inorganics","CTUh",0,0,0,NA,NA,NA
+"Human toxicity, non-cancer - organics","CTUh",0,0,0,NA,NA,NA
+"Ionising radiation","kBq U-235 eq",0.0839,0.0938,0.1162,27.8,19.3,10.6
+"Land use","Pt",19.0866,20.5021,24.1222,20.9,15,6.9
+"Ozone depletion","kg CFC11 eq",0,0,0,NA,NA,NA
+"Particulate matter","disease inc.",0,0,0,NA,NA,NA
+"Photochemical ozone formation","kg NMVOC eq",0.0025,0.0029,0.0039,35.9,25.6,13.8
+"Resource use, fossils","MJ",7.5173,9.3557,13.1948,43,29.1,19.7
+"Resource use, minerals and metals","kg Sb eq",0,0,0,NA,NA,NA
+"Water use","m3 depriv.",18.1033,15.4677,22.0303,17.8,29.8,-17

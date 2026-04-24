@@ -1,0 +1,349 @@
+System,System_Code,Year,Impact_Category,Unit,Mean,Median,SD,CV,CI_Lower_95,CI_Upper_95,Standard_Error_Mean,Filename
+Heated Glasshouse,glass_heated,2020,Acidification,mol H+ eq,0.003816196,0.003122194,0.00287615,75.36691906,0.001252543,0.009510031,9.10E-05,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,Climate change,kg CO2 eq,0.684552843,0.549889831,0.548301643,80.096321,0.225065609,1.877496065,0.01733882,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,Climate change - Biogenic,kg CO2 eq,0.00044605,0.000326595,0.000431246,96.68108553,0.00012797,0.001456126,1.36E-05,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,Climate change - Fossil,kg CO2 eq,0.683372839,0.548908513,0.547690764,80.14523443,0.224681,1.873956602,0.017319503,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,Climate change - Land use and LU change,kg CO2 eq,0.000733954,0.000565495,0.000657312,89.55763598,0.000132735,0.002323832,2.08E-05,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Ecotoxicity, freshwater - inorganics",CTUe,7.083548244,5.725818916,10.20467176,144.0615834,-10.27378633,30.02593024,0.322700055,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Ecotoxicity, freshwater - organics - p.1",CTUe,0.632029795,0.531112317,0.429786618,68.00100578,0.204919971,1.589036373,0.013591046,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Ecotoxicity, freshwater - organics - p.2",CTUe,0.039232512,0.033155685,0.025730995,65.58589793,0.013635559,0.093280349,0.000813686,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Ecotoxicity, freshwater - part 1",CTUe,5.061064243,4.215428091,8.886896817,175.5934403,-11.73105188,25.34295582,0.281028353,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Ecotoxicity, freshwater - part 2",CTUe,2.693746308,1.679965067,3.63436541,134.9186224,0.436120081,12.02664849,0.114928725,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Eutrophication, freshwater",kg P eq,0.000111224,9.07E-05,7.44E-05,66.92495486,3.45E-05,0.000294317,2.35E-06,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Eutrophication, marine",kg N eq,0.000731655,0.000613747,0.000474204,64.81248927,0.000254422,0.001918702,1.50E-05,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Eutrophication, terrestrial",mol N eq,0.011004637,0.008826906,0.009380776,85.24384816,0.003527141,0.028834554,0.000296646,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Human toxicity, cancer",CTUh,2.72E-09,2.30E-09,3.35E-09,122.9296933,-2.59E-09,1.05E-08,1.06E-10,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Human toxicity, cancer - inorganics",CTUh,1.00E-11,-6.08E-11,2.80E-09,27887.79913,-5.39E-09,5.72E-09,8.85E-11,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Human toxicity, cancer - organics",CTUh,2.71E-09,2.28E-09,1.86E-09,68.59607631,8.66E-10,6.79E-09,5.88E-11,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Human toxicity, non-cancer",CTUh,3.89E-09,8.16E-09,5.70E-07,14666.58844,-1.09E-06,1.18E-06,1.80E-08,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Human toxicity, non-cancer - inorganics",CTUh,3.50E-09,7.90E-09,5.70E-07,16289.59971,-1.09E-06,1.18E-06,1.80E-08,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Human toxicity, non-cancer - organics",CTUh,3.87E-10,3.09E-10,3.31E-10,85.33648452,1.29E-10,1.08E-09,1.05E-11,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,Ionising radiation,kBq U-235 eq,0.079532176,0.049960034,0.09621552,120.9768494,0.01487827,0.339292031,0.003042602,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,Land use,Pt,16.29521496,15.51114537,3.027966172,18.58193451,13.33244409,24.01728491,0.095752698,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,Ozone depletion,kg CFC11 eq,1.41E-08,1.14E-08,1.10E-08,78.15217198,4.78E-09,3.81E-08,3.47E-10,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,Particulate matter,disease inc.,3.08E-08,2.54E-08,2.27E-08,73.78727614,1.04E-08,7.89E-08,7.18E-10,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,Photochemical ozone formation,kg NMVOC eq,0.002480896,0.002122969,0.001502963,60.58144543,0.000882461,0.006144333,4.75E-05,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Resource use, fossils",MJ,8.999516233,7.482687056,6.354220997,70.60625075,3.345197817,22.75864896,0.200938111,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,"Resource use, minerals and metals",kg Sb eq,5.72E-06,4.23E-06,6.43E-06,112.4241599,1.58E-06,1.82E-05,2.03E-07,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,Water use,m3 depriv.,16.0887964,15.92609815,5.900596114,36.67518668,4.949582168,29.16503172,0.186593233,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,,,,,,,,,,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2020,Confidence interval: ,95,,,,,,,,MC_glass_2020.XLSX
+Heated Glasshouse,glass_heated,2021,Acidification,mol H+ eq,0.004325038,0.004005122,0.001699929,39.30435792,0.002162284,0.008763089,5.38E-05,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,Climate change,kg CO2 eq,0.775661403,0.694124683,0.322716794,41.60536968,0.394457324,1.701221377,0.010205201,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,Climate change - Biogenic,kg CO2 eq,0.00052117,0.000425976,0.000447342,85.83414006,0.000208123,0.001283633,1.41E-05,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,Climate change - Fossil,kg CO2 eq,0.774252725,0.693104919,0.322324047,41.63034065,0.393516636,1.699078622,0.010192781,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,Climate change - Land use and LU change,kg CO2 eq,0.000887508,0.000743815,0.000586562,66.09091785,0.000195624,0.002362638,1.85E-05,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Ecotoxicity, freshwater - inorganics",CTUe,8.705026082,8.217839826,12.7615045,146.5992678,-18.14201492,35.48491102,0.403554206,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Ecotoxicity, freshwater - organics - p.1",CTUe,0.727275615,0.663859159,0.283170826,38.93583397,0.351252053,1.476899945,0.008954648,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Ecotoxicity, freshwater - organics - p.2",CTUe,0.047020376,0.042305655,0.019931899,42.38991883,0.02206687,0.098566875,0.000630302,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Ecotoxicity, freshwater - part 1",CTUe,6.517368653,6.010958219,12.50880092,191.9302342,-20.96094221,34.4389187,0.395563017,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Ecotoxicity, freshwater - part 2",CTUe,2.96195342,2.216166478,2.434837451,82.2037725,0.791835869,9.752569618,0.076996321,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Eutrophication, freshwater",kg P eq,0.000131328,0.000114066,7.03E-05,53.53398811,4.89E-05,0.00029638,2.22E-06,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Eutrophication, marine",kg N eq,0.000852953,0.000786154,0.000305054,35.76438545,0.000442629,0.001644234,9.65E-06,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Eutrophication, terrestrial",mol N eq,0.012401099,0.011266467,0.005166335,41.66029742,0.006096423,0.026066462,0.000163374,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Human toxicity, cancer",CTUh,3.39E-09,3.07E-09,4.34E-09,128.2727091,-5.02E-09,1.26E-08,1.37E-10,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Human toxicity, cancer - inorganics",CTUh,2.71E-10,6.33E-11,4.14E-09,1528.791036,-8.12E-09,9.13E-09,1.31E-10,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Human toxicity, cancer - organics",CTUh,3.12E-09,2.85E-09,1.22E-09,39.22272171,1.51E-09,6.36E-09,3.86E-11,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Human toxicity, non-cancer",CTUh,4.70E-08,3.62E-08,8.99E-07,1913.19309,-1.93E-06,1.94E-06,2.84E-08,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Human toxicity, non-cancer - inorganics",CTUh,4.65E-08,3.59E-08,8.99E-07,1931.542364,-1.93E-06,1.94E-06,2.84E-08,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Human toxicity, non-cancer - organics",CTUh,4.46E-10,3.86E-10,2.17E-10,48.54088523,2.05E-10,9.83E-10,6.85E-12,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,Ionising radiation,kBq U-235 eq,0.094528601,0.071061705,0.085089919,90.01499854,0.029702158,0.305287865,0.002690779,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,Land use,Pt,19.61361866,18.92005567,3.090109476,15.75491769,16.76527131,26.14973071,0.097717842,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,Ozone depletion,kg CFC11 eq,1.60E-08,1.45E-08,6.42E-09,40.06493674,8.11E-09,3.44E-08,2.03E-10,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,Particulate matter,disease inc.,3.56E-08,3.24E-08,1.42E-08,39.81713569,1.77E-08,7.17E-08,4.49E-10,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,Photochemical ozone formation,kg NMVOC eq,0.002910105,0.0027326,0.000977381,33.58575953,0.001571173,0.005363839,3.09E-05,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Resource use, fossils",MJ,10.37457302,9.560784691,3.734634277,35.99795645,5.577833664,20.80353031,0.118099505,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,"Resource use, minerals and metals",kg Sb eq,6.45E-06,5.30E-06,4.01E-06,62.16119198,2.45E-06,1.77E-05,1.27E-07,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,Water use,m3 depriv.,24.08849267,21.06625621,15.17510867,62.997336,2.258904181,63.77714205,0.479879071,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,,,,,,,,,,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2021,Confidence interval: ,95,,,,,,,,MC_glass_2021.XLSX
+Heated Glasshouse,glass_heated,2022,Acidification,mol H+ eq,0.006661132,0.006188638,0.002350383,35.28503955,0.003532639,0.012864849,7.43E-05,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,Climate change,kg CO2 eq,1.189027223,1.100694386,0.441068207,37.09487877,0.661715844,2.348562127,0.013947801,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,Climate change - Biogenic,kg CO2 eq,0.000889429,0.000673598,0.000808904,90.94647032,0.000334444,0.002730509,2.56E-05,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,Climate change - Fossil,kg CO2 eq,1.186787429,1.098952917,0.440534655,37.11992933,0.660820648,2.345934985,0.013930929,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,Climate change - Land use and LU change,kg CO2 eq,0.001350365,0.001177287,0.000844664,62.55078381,0.000312522,0.003657869,2.67E-05,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Ecotoxicity, freshwater - inorganics",CTUe,12.53456469,11.34547904,12.43116195,99.17505924,-8.280791737,39.9353881,0.393107857,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Ecotoxicity, freshwater - organics - p.1",CTUe,1.166344274,1.069570432,0.43412632,37.22111295,0.60037654,2.23537041,0.01372828,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Ecotoxicity, freshwater - organics - p.2",CTUe,0.069934608,0.064431363,0.02721512,38.91509653,0.034580122,0.139602178,0.000860618,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Ecotoxicity, freshwater - part 1",CTUe,9.396149613,8.276287841,11.87791619,126.4125911,-11.04112606,33.5896479,0.37561269,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Ecotoxicity, freshwater - part 2",CTUe,4.374693957,3.520857245,3.007910742,68.75705527,1.25126386,12.96185927,0.095118489,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Eutrophication, freshwater",kg P eq,0.000186572,0.000165125,9.60E-05,51.44653169,7.46E-05,0.000410562,3.04E-06,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Eutrophication, marine",kg N eq,0.001345151,0.001280181,0.000427675,31.79382701,0.000748103,0.002434689,1.35E-05,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Eutrophication, terrestrial",mol N eq,0.019610905,0.018299319,0.007188085,36.65351006,0.010120197,0.037228152,0.000227307,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Human toxicity, cancer",CTUh,4.96E-09,4.74E-09,4.76E-09,95.88983102,-3.93E-09,1.56E-08,1.51E-10,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Human toxicity, cancer - inorganics",CTUh,-2.95E-11,-6.08E-11,4.48E-09,-15173.52325,-8.32E-09,9.17E-09,1.42E-10,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Human toxicity, cancer - organics",CTUh,4.99E-09,4.60E-09,1.88E-09,37.56473759,2.55E-09,9.48E-09,5.93E-11,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Human toxicity, non-cancer",CTUh,6.29E-09,-5.15E-09,8.52E-07,13541.06077,-1.65E-06,1.86E-06,2.69E-08,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Human toxicity, non-cancer - inorganics",CTUh,5.62E-09,-5.93E-09,8.52E-07,15160.98945,-1.65E-06,1.86E-06,2.69E-08,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Human toxicity, non-cancer - organics",CTUh,6.72E-10,5.85E-10,3.87E-10,57.50569176,3.12E-10,1.45E-09,1.22E-11,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,Ionising radiation,kBq U-235 eq,0.141612047,0.107004594,0.122373161,86.41437214,0.051541793,0.477295672,0.003869779,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,Land use,Pt,29.6676212,28.21705784,6.759038327,22.78254222,24.84031002,43.49768363,0.213739559,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,Ozone depletion,kg CFC11 eq,2.47E-08,2.26E-08,9.00E-09,36.44204824,1.35E-08,4.98E-08,2.85E-10,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,Particulate matter,disease inc.,5.45E-08,5.07E-08,2.05E-08,37.65898075,2.78E-08,1.05E-07,6.48E-10,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,Photochemical ozone formation,kg NMVOC eq,0.004609663,0.004373808,0.001378776,29.9105598,0.002680505,0.008009193,4.36E-05,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Resource use, fossils",MJ,15.89884525,14.94645296,5.194112214,32.66974508,9.52742337,29.65022896,0.16425225,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,"Resource use, minerals and metals",kg Sb eq,9.71E-06,7.98E-06,7.27E-06,74.85214995,3.78E-06,2.59E-05,2.30E-07,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,Water use,m3 depriv.,20.01584777,19.5345384,9.429394025,47.10964098,2.085971145,39.60640438,0.298183621,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,,,,,,,,,,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2022,Confidence interval: ,95,,,,,,,,MC_glass_2022.XLSX
+Heated Glasshouse,glass_heated,2023,Acidification,mol H+ eq,0.007595304,0.007207204,0.002149018,28.2940404,0.004427088,0.013040319,6.80E-05,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,Climate change,kg CO2 eq,1.318526041,1.233397545,0.382263626,28.99173878,0.805503029,2.366505094,0.012088237,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,Climate change - Biogenic,kg CO2 eq,0.001083941,0.000866925,0.000800401,73.84173039,0.000406467,0.003140801,2.53E-05,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,Climate change - Fossil,kg CO2 eq,1.316001337,1.231240596,0.381800909,29.01219762,0.803734334,2.362029159,0.012073605,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,Climate change - Land use and LU change,kg CO2 eq,0.001440764,0.001243819,0.000837658,58.13983305,0.000335652,0.003352659,2.65E-05,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Ecotoxicity, freshwater - inorganics",CTUe,12.70855845,12.34840055,16.69094494,131.3362566,-20.64672059,47.18049712,0.527814023,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Ecotoxicity, freshwater - organics - p.1",CTUe,1.380212289,1.305263532,0.430949371,31.22341211,0.724511366,2.526343545,0.013627816,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Ecotoxicity, freshwater - organics - p.2",CTUe,0.081536905,0.07493978,0.027497406,33.7238771,0.045760849,0.149127335,0.000869544,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Ecotoxicity, freshwater - part 1",CTUe,9.490438274,8.833962297,16.25581688,171.2862611,-22.90194759,43.40423736,0.514054066,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Ecotoxicity, freshwater - part 2",CTUe,4.679869369,3.921902933,2.943200884,62.89066322,1.566556635,12.53117734,0.093072184,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Eutrophication, freshwater",kg P eq,0.000210666,0.000189536,9.89E-05,46.9578101,9.41E-05,0.000432501,3.13E-06,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Eutrophication, marine",kg N eq,0.001691294,0.001609385,0.00049611,29.33313868,0.000983376,0.002896667,1.57E-05,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Eutrophication, terrestrial",mol N eq,0.023298914,0.021871394,0.00719723,30.89083755,0.012756306,0.041539158,0.000227596,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Human toxicity, cancer",CTUh,5.83E-09,5.65E-09,6.07E-09,104.110804,-5.62E-09,1.89E-08,1.92E-10,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Human toxicity, cancer - inorganics",CTUh,-6.55E-11,-1.20E-10,5.79E-09,-8839.572349,-1.15E-08,1.17E-08,1.83E-10,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Human toxicity, cancer - organics",CTUh,5.90E-09,5.60E-09,1.85E-09,31.30297198,3.06E-09,1.08E-08,5.84E-11,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Human toxicity, non-cancer",CTUh,-1.06E-09,-1.77E-08,1.20E-06,-112283.0643,-2.44E-06,2.38E-06,3.78E-08,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Human toxicity, non-cancer - inorganics",CTUh,-1.79E-09,-1.81E-08,1.20E-06,-66721.04155,-2.44E-06,2.38E-06,3.78E-08,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Human toxicity, non-cancer - organics",CTUh,7.27E-10,6.66E-10,2.63E-10,36.23048379,3.95E-10,1.40E-09,8.33E-12,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,Ionising radiation,kBq U-235 eq,0.14922256,0.114073398,0.126382021,84.69364249,0.057264747,0.499612796,0.00399655,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,Land use,Pt,30.91229626,29.51233093,5.483933637,17.74029852,25.73961975,45.19730376,0.173417208,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,Ozone depletion,kg CFC11 eq,2.65E-08,2.48E-08,7.96E-09,30.02548064,1.61E-08,4.84E-08,2.52E-10,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,Particulate matter,disease inc.,5.96E-08,5.62E-08,1.81E-08,30.31614868,3.51E-08,1.05E-07,5.71E-10,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,Photochemical ozone formation,kg NMVOC eq,0.005714196,0.005427532,0.001515231,26.51695042,0.003486315,0.009416317,4.79E-05,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Resource use, fossils",MJ,17.50621252,16.66219064,4.494008553,25.67093567,11.1686275,29.53782144,0.142113029,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,"Resource use, minerals and metals",kg Sb eq,1.04E-05,9.00E-06,5.06E-06,48.64010693,4.77E-06,2.40E-05,1.60E-07,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,Water use,m3 depriv.,27.92807294,26.36312704,14.00053236,50.13067815,3.800203526,60.1664982,0.442735707,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,,,,,,,,,,MC_glass_2023.XLSX
+Heated Glasshouse,glass_heated,2023,Confidence interval: ,95,,,,,,,,MC_glass_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,Acidification,mol H+ eq,0.00434758,0.004237323,0.000795023,18.28656927,0.003140244,0.006189592,2.51E-05,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,Climate change,kg CO2 eq,0.790484228,0.771391151,0.124938033,15.80525305,0.592660264,1.071727672,0.003950887,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,Climate change - Biogenic,kg CO2 eq,0.000653468,0.000494551,0.000515359,78.86520246,0.000265811,0.002151313,1.63E-05,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,Climate change - Fossil,kg CO2 eq,0.789004544,0.769393606,0.124785924,15.81561539,0.590777523,1.070315073,0.003946077,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,Climate change - Land use and LU change,kg CO2 eq,0.000826216,0.00078263,0.000349449,42.29509743,0.000218604,0.001580094,1.11E-05,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Ecotoxicity, freshwater - inorganics",CTUe,6.976715532,6.596610582,9.908330807,142.0199915,-12.13583049,28.74465829,0.313328932,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Ecotoxicity, freshwater - organics - p.1",CTUe,0.822820145,0.782518128,0.249338127,30.30287103,0.449321357,1.45002275,0.007884764,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Ecotoxicity, freshwater - organics - p.2",CTUe,0.048572236,0.04665198,0.012980861,26.72485833,0.030029773,0.079826379,0.000410491,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Ecotoxicity, freshwater - part 1",CTUe,5.228711306,4.800053543,9.869126249,188.7487312,-14.25927788,26.47738896,0.312089175,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Ecotoxicity, freshwater - part 2",CTUe,2.619396608,2.382765934,1.070569759,40.87085385,1.204104481,5.246904001,0.033854388,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Eutrophication, freshwater",kg P eq,0.000124733,0.000113775,5.08E-05,40.69080371,6.17E-05,0.000238894,1.61E-06,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Eutrophication, marine",kg N eq,0.000964017,0.000922803,0.000229471,23.80365074,0.000638769,0.001504668,7.26E-06,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Eutrophication, terrestrial",mol N eq,0.013197225,0.012722091,0.003003252,22.75669525,0.008806982,0.020333758,9.50E-05,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Human toxicity, cancer",CTUh,3.63E-09,3.39E-09,3.98E-09,109.5835789,-3.49E-09,1.25E-08,1.26E-10,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Human toxicity, cancer - inorganics",CTUh,1.00E-10,-1.03E-12,3.78E-09,3773.632006,-6.78E-09,8.84E-09,1.20E-10,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Human toxicity, cancer - organics",CTUh,3.53E-09,3.36E-09,1.08E-09,30.4998895,1.91E-09,6.14E-09,3.41E-11,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Human toxicity, non-cancer",CTUh,9.35E-09,-3.11E-09,7.62E-07,8142.371733,-1.51E-06,1.59E-06,2.41E-08,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Human toxicity, non-cancer - inorganics",CTUh,8.92E-09,-3.58E-09,7.62E-07,8541.778589,-1.51E-06,1.59E-06,2.41E-08,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Human toxicity, non-cancer - organics",CTUh,4.37E-10,4.12E-10,1.29E-10,29.38289087,2.82E-10,7.64E-10,4.06E-12,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,Ionising radiation,kBq U-235 eq,0.120586736,0.087186666,0.136162248,112.9164396,0.045557508,0.392083248,0.004305828,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,Land use,Pt,25.0830608,24.11507797,3.694452877,14.72887582,21.91505206,34.07349396,0.116828858,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,Ozone depletion,kg CFC11 eq,1.68E-08,1.64E-08,2.96E-09,17.65840855,1.19E-08,2.35E-08,9.36E-11,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,Particulate matter,disease inc.,3.53E-08,3.41E-08,7.26E-09,20.59561189,2.39E-08,5.23E-08,2.30E-10,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,Photochemical ozone formation,kg NMVOC eq,0.003301603,0.003198653,0.000687247,20.81555947,0.002304847,0.004865948,2.17E-05,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Resource use, fossils",MJ,11.03361254,10.91463572,1.732691352,15.70375384,8.019218997,14.88691238,0.054792512,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,"Resource use, minerals and metals",kg Sb eq,6.18E-06,5.54E-06,2.76E-06,44.7064429,3.18E-06,1.35E-05,8.74E-08,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,Water use,m3 depriv.,20.8832339,21.29992463,7.182598176,34.39408958,4.889467423,34.59224724,0.227133698,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,,,,,,,,,,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2020,Confidence interval: ,95,,,,,,,,MC_glass_non_2020.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,Acidification,mol H+ eq,0.003074622,0.003000036,0.000571693,18.59392357,0.002157396,0.004378364,1.81E-05,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,Climate change,kg CO2 eq,0.575793146,0.5634816,0.094285283,16.37485331,0.423435967,0.783632906,0.002981562,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,Climate change - Biogenic,kg CO2 eq,0.000427139,0.000325873,0.000307295,71.94262292,0.000195544,0.001442471,9.72E-06,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,Climate change - Fossil,kg CO2 eq,0.574768655,0.56274157,0.094160247,16.38228633,0.422972943,0.78160198,0.002977608,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,Climate change - Land use and LU change,kg CO2 eq,0.000597352,0.000556077,0.000264722,44.31596281,0.000171968,0.001227883,8.37E-06,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Ecotoxicity, freshwater - inorganics",CTUe,4.547031984,4.652429444,7.403205298,162.8140142,-10.27953475,20.41284439,0.234109907,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Ecotoxicity, freshwater - organics - p.1",CTUe,0.598131812,0.569462898,0.174305446,29.14164435,0.339042669,1.00148169,0.005512022,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Ecotoxicity, freshwater - organics - p.2",CTUe,0.035388707,0.033375614,0.010489914,29.64198226,0.021026441,0.062287821,0.00033172,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Ecotoxicity, freshwater - part 1",CTUe,3.30177224,3.421832418,7.381632765,223.5657771,-12.07205156,18.73106704,0.233427724,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Ecotoxicity, freshwater - part 2",CTUe,1.878780264,1.723976286,0.766147682,40.77899353,0.902153334,3.777152062,0.024227717,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Eutrophication, freshwater",kg P eq,9.16E-05,8.43E-05,3.70E-05,40.42784174,4.24E-05,0.000190883,1.17E-06,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Eutrophication, marine",kg N eq,0.000667777,0.000648318,0.000153949,23.05391681,0.000443936,0.001022213,4.87E-06,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Eutrophication, terrestrial",mol N eq,0.009209152,0.008904379,0.002068092,22.45692188,0.006106747,0.014047971,6.54E-05,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Human toxicity, cancer",CTUh,2.46E-09,2.39E-09,2.87E-09,116.9038448,-2.98E-09,8.46E-09,9.08E-11,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Human toxicity, cancer - inorganics",CTUh,-1.05E-10,-1.49E-10,2.78E-09,-2646.832501,-5.60E-09,5.37E-09,8.78E-11,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Human toxicity, cancer - organics",CTUh,2.56E-09,2.44E-09,7.46E-10,29.11485201,1.46E-09,4.38E-09,2.36E-11,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Human toxicity, non-cancer",CTUh,-3.28E-08,-4.36E-08,5.69E-07,-1737.85349,-1.23E-06,1.07E-06,1.80E-08,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Human toxicity, non-cancer - inorganics",CTUh,-3.31E-08,-4.39E-08,5.69E-07,-1721.025057,-1.23E-06,1.07E-06,1.80E-08,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Human toxicity, non-cancer - organics",CTUh,3.20E-10,3.04E-10,9.07E-11,28.30673885,1.99E-10,5.33E-10,2.87E-12,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,Ionising radiation,kBq U-235 eq,0.081967247,0.059094016,0.076111215,92.85564364,0.03318361,0.259610398,0.002406848,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,Land use,Pt,17.2749482,16.69586976,2.276650244,13.17891213,15.22761483,22.65612553,0.071994002,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,Ozone depletion,kg CFC11 eq,1.21E-08,1.18E-08,2.19E-09,18.06245382,8.71E-09,1.73E-08,6.92E-11,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,Particulate matter,disease inc.,2.68E-08,2.58E-08,5.76E-09,21.50909993,1.80E-08,4.08E-08,1.82E-10,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,Photochemical ozone formation,kg NMVOC eq,0.002338127,0.002292485,0.000481068,20.57491456,0.00159129,0.003460432,1.52E-05,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Resource use, fossils",MJ,7.996151453,7.810815101,1.276692199,15.96633339,5.959465314,11.01556367,0.040372552,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,"Resource use, minerals and metals",kg Sb eq,4.42E-06,3.95E-06,2.01E-06,45.5286775,2.23E-06,9.28E-06,6.36E-08,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,Water use,m3 depriv.,15.29161065,15.52002458,4.67418247,30.56697281,5.326888225,23.56866811,0.147810628,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,,,,,,,,,,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2021,Confidence interval: ,95,,,,,,,,MC_glass_non_2021.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,Acidification,mol H+ eq,0.003967045,0.003879685,0.000759252,19.1389823,0.002705022,0.005775045,2.40E-05,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,Climate change,kg CO2 eq,0.733309992,0.721105302,0.121190291,16.52647478,0.541425529,1.014268105,0.003832373,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,Climate change - Biogenic,kg CO2 eq,0.000615066,0.000446347,0.000621859,101.104392,0.000236316,0.002227759,1.97E-05,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,Climate change - Fossil,kg CO2 eq,0.731942269,0.720163047,0.120979179,16.52851385,0.54023404,1.012597417,0.003825698,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,Climate change - Land use and LU change,kg CO2 eq,0.000752657,0.000689829,0.000348956,46.36315609,0.00024396,0.001580924,1.10E-05,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Ecotoxicity, freshwater - inorganics",CTUe,6.549738856,6.391544961,7.043681522,107.5414101,-7.230418523,21.06519691,0.222740767,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Ecotoxicity, freshwater - organics - p.1",CTUe,0.801846655,0.761387635,0.234179131,29.20497697,0.443537771,1.350928744,0.007405394,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Ecotoxicity, freshwater - organics - p.2",CTUe,0.044092558,0.041981437,0.011734476,26.61328063,0.027111276,0.072188,0.000371077,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Ecotoxicity, freshwater - part 1",CTUe,4.991761213,4.822315981,6.935401253,138.9369595,-8.523574971,19.2977654,0.219316644,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Ecotoxicity, freshwater - part 2",CTUe,2.403916857,2.180399454,1.082901877,45.04739313,1.091738634,5.25119693,0.034244364,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Eutrophication, freshwater",kg P eq,0.000107635,9.59E-05,4.67E-05,43.40806374,5.27E-05,0.000236195,1.48E-06,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Eutrophication, marine",kg N eq,0.000897273,0.000865337,0.000213034,23.74234701,0.00057745,0.001456107,6.74E-06,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Eutrophication, terrestrial",mol N eq,0.012224034,0.011798194,0.002790125,22.82490938,0.007935122,0.018754773,8.82E-05,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Human toxicity, cancer",CTUh,3.62E-09,3.52E-09,3.17E-09,87.53054225,-2.38E-09,1.00E-08,1.00E-10,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Human toxicity, cancer - inorganics",CTUh,1.89E-10,1.88E-10,2.98E-09,1579.281492,-6.19E-09,6.09E-09,9.44E-11,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Human toxicity, cancer - organics",CTUh,3.43E-09,3.25E-09,1.01E-09,29.33546932,1.91E-09,5.81E-09,3.18E-11,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Human toxicity, non-cancer",CTUh,2.43E-08,1.65E-08,5.61E-07,2309.379769,-1.08E-06,1.15E-06,1.77E-08,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Human toxicity, non-cancer - inorganics",CTUh,2.39E-08,1.62E-08,5.61E-07,2348.182829,-1.08E-06,1.15E-06,1.77E-08,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Human toxicity, non-cancer - organics",CTUh,4.01E-10,3.74E-10,1.30E-10,32.50600187,2.48E-10,7.16E-10,4.12E-12,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,Ionising radiation,kBq U-235 eq,0.100479803,0.077482439,0.089694657,89.26635419,0.040901648,0.316045051,0.002836394,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,Land use,Pt,22.00473714,20.98227746,3.886510636,17.66215434,18.97634764,32.22047274,0.122902258,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,Ozone depletion,kg CFC11 eq,1.54E-08,1.50E-08,2.69E-09,17.48847267,1.11E-08,2.14E-08,8.52E-11,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,Particulate matter,disease inc.,3.40E-08,3.31E-08,7.36E-09,21.68446842,2.28E-08,5.16E-08,2.33E-10,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,Photochemical ozone formation,kg NMVOC eq,0.003131333,0.003036213,0.000656946,20.97976732,0.002123261,0.004746496,2.08E-05,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Resource use, fossils",MJ,10.15936978,10.01820114,1.576472685,15.51742597,7.462685929,13.81811858,0.049852444,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,"Resource use, minerals and metals",kg Sb eq,5.51E-06,4.85E-06,2.75E-06,49.93337341,2.69E-06,1.20E-05,8.70E-08,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,Water use,m3 depriv.,10.66487874,10.96496886,5.08251085,47.65652733,0.245828196,20.4828793,0.160723105,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,,,,,,,,,,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2022,Confidence interval: ,95,,,,,,,,MC_glass_non_2022.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,Acidification,mol H+ eq,0.003289278,0.003209098,0.000556138,16.90761321,0.002413942,0.004566962,1.76E-05,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,Climate change,kg CO2 eq,0.601183756,0.591217183,0.082410678,13.70806807,0.468571076,0.81071631,0.002606054,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,Climate change - Biogenic,kg CO2 eq,0.000523051,0.000386322,0.000468483,89.56738737,0.000206507,0.001616836,1.48E-05,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,Climate change - Fossil,kg CO2 eq,0.600062124,0.590002762,0.082256029,13.70791878,0.467893212,0.809685441,0.002601164,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,Climate change - Land use and LU change,kg CO2 eq,0.000598581,0.000587455,0.000233674,39.03797268,0.000188309,0.001130604,7.39E-06,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Ecotoxicity, freshwater - inorganics",CTUe,4.538289408,4.583385276,7.641034747,168.3681683,-12.26741858,19.49321475,0.241630735,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Ecotoxicity, freshwater - organics - p.1",CTUe,0.695076199,0.660560132,0.208149751,29.94632125,0.396974595,1.169611375,0.006582273,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Ecotoxicity, freshwater - organics - p.2",CTUe,0.038925631,0.037133122,0.009958954,25.58456593,0.024316117,0.063384922,0.00031493,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Ecotoxicity, freshwater - part 1",CTUe,3.51669731,3.663716497,7.584737614,215.6778632,-13.02012489,18.52889429,0.239850463,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Ecotoxicity, freshwater - part 2",CTUe,1.755593927,1.646982401,0.535927141,30.52682815,1.008133696,3.066171986,0.016947504,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Eutrophication, freshwater",kg P eq,9.29E-05,8.35E-05,3.66E-05,39.39264822,4.48E-05,0.000183074,1.16E-06,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Eutrophication, marine",kg N eq,0.00080001,0.000756614,0.000211897,26.48676757,0.000505273,0.001340265,6.70E-06,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Eutrophication, terrestrial",mol N eq,0.01047383,0.010082118,0.002470452,23.58689859,0.006899788,0.016344615,7.81E-05,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Human toxicity, cancer",CTUh,3.10E-09,3.07E-09,3.02E-09,97.46781619,-2.80E-09,9.19E-09,9.54E-11,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Human toxicity, cancer - inorganics",CTUh,1.12E-10,5.85E-11,2.92E-09,2607.407572,-5.63E-09,5.68E-09,9.25E-11,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Human toxicity, cancer - organics",CTUh,2.98E-09,2.84E-09,8.98E-10,30.09977601,1.71E-09,5.06E-09,2.84E-11,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Human toxicity, non-cancer",CTUh,8.56E-09,3.74E-09,5.91E-07,6903.673974,-1.21E-06,1.17E-06,1.87E-08,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Human toxicity, non-cancer - inorganics",CTUh,8.24E-09,3.30E-09,5.91E-07,7178.934914,-1.21E-06,1.17E-06,1.87E-08,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Human toxicity, non-cancer - organics",CTUh,3.28E-10,3.12E-10,7.98E-11,24.31803918,2.11E-10,5.29E-10,2.53E-12,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,Ionising radiation,kBq U-235 eq,0.072334848,0.054253606,0.059028193,81.60408749,0.029117898,0.211939375,0.001866635,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,Land use,Pt,17.64578788,16.84312692,2.957938621,16.76285945,15.10696962,26.28699363,0.093538232,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,Ozone depletion,kg CFC11 eq,1.21E-08,1.18E-08,1.93E-09,15.95731142,9.11E-09,1.65E-08,6.11E-11,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,Particulate matter,disease inc.,2.77E-08,2.67E-08,5.98E-09,21.6110119,1.93E-08,4.20E-08,1.89E-10,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,Photochemical ozone formation,kg NMVOC eq,0.002787101,0.002685652,0.000623287,22.36327444,0.001840464,0.004304574,1.97E-05,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Resource use, fossils",MJ,8.233799911,8.104712015,1.237821599,15.03341849,6.282826247,11.17876825,0.039143356,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,"Resource use, minerals and metals",kg Sb eq,4.45E-06,4.05E-06,1.57E-06,35.28741898,2.46E-06,8.66E-06,4.96E-08,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,Water use,m3 depriv.,15.03106018,15.27587282,4.996640304,33.24210165,5.027495424,24.5472528,0.15800764,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,,,,,,,,,,MC_glass_non_2023.XLSX
+Non-heated Glasshouse,glass_non_heated,2023,Confidence interval: ,95,,,,,,,,MC_glass_non_2023.XLSX
+Polytunnel,polytunnel,2020,Acidification,mol H+ eq,0.003572807,0.002867138,0.002502737,70.04960383,0.001392537,0.010107065,7.91E-05,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,Climate change,kg CO2 eq,0.437576356,0.405404929,0.162800824,37.2051235,0.236880449,0.856943797,0.005148214,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,Climate change - Biogenic,kg CO2 eq,0.000400643,0.000291865,0.000375247,93.66118762,0.000136301,0.001330448,1.19E-05,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,Climate change - Fossil,kg CO2 eq,0.43676005,0.404758373,0.162571928,37.22225242,0.236298726,0.855994206,0.005140976,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,Climate change - Land use and LU change,kg CO2 eq,0.000415663,0.000375727,0.00019632,47.23042032,0.000176235,0.000872603,6.21E-06,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Ecotoxicity, freshwater - inorganics",CTUe,2.885144719,2.355868092,9.270777433,321.3279865,-14.57792695,22.56461562,0.293167724,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Ecotoxicity, freshwater - organics - p.1",CTUe,0.500078605,0.450561517,0.233305049,46.65367537,0.218465649,1.019160392,0.007377753,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Ecotoxicity, freshwater - organics - p.2",CTUe,0.033893563,0.031774606,0.012821155,37.82769909,0.01671587,0.066065387,0.000405441,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Ecotoxicity, freshwater - part 1",CTUe,2.348138294,1.890429529,9.126215362,388.6574902,-14.93543721,21.42021078,0.28859627,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Ecotoxicity, freshwater - part 2",CTUe,1.070978592,0.773874441,1.140468083,106.4884108,0.322120429,3.540470053,0.036064767,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Eutrophication, freshwater",kg P eq,7.91E-05,6.94E-05,4.61E-05,58.29491023,2.90E-05,0.000196579,1.46E-06,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Eutrophication, marine",kg N eq,0.003363016,0.002127948,0.003774289,112.2293037,0.000610615,0.014294747,0.000119354,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Eutrophication, terrestrial",mol N eq,0.013080354,0.009970903,0.01048868,80.18651865,0.004346518,0.040776186,0.000331681,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Human toxicity, cancer",CTUh,2.39E-09,2.03E-09,3.53E-09,147.7000327,-3.67E-09,1.01E-08,1.12E-10,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Human toxicity, cancer - inorganics",CTUh,2.42E-10,6.58E-11,3.31E-09,1369.979062,-5.58E-09,7.54E-09,1.05E-10,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Human toxicity, cancer - organics",CTUh,2.15E-09,1.94E-09,1.00E-09,46.60414256,9.29E-10,4.43E-09,3.16E-11,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Human toxicity, non-cancer",CTUh,4.09E-08,1.59E-08,6.91E-07,1692.175992,-1.27E-06,1.58E-06,2.19E-08,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Human toxicity, non-cancer - inorganics",CTUh,4.06E-08,1.57E-08,6.91E-07,1702.414308,-1.27E-06,1.58E-06,2.19E-08,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Human toxicity, non-cancer - organics",CTUh,2.46E-10,2.26E-10,9.95E-11,40.44020273,1.23E-10,4.91E-10,3.15E-12,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,Ionising radiation,kBq U-235 eq,0.082044209,0.057723655,0.123054416,149.9854984,0.019717174,0.288252055,0.003891322,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,Land use,Pt,18.65773052,17.26344776,6.403444354,34.32059621,9.65547065,35.11788961,0.20249469,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,Ozone depletion,kg CFC11 eq,1.01E-08,9.28E-09,3.52E-09,34.81837868,5.39E-09,1.85E-08,1.11E-10,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,Particulate matter,disease inc.,2.83E-08,2.34E-08,1.83E-08,64.6110858,1.10E-08,7.38E-08,5.79E-10,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,Photochemical ozone formation,kg NMVOC eq,0.002095488,0.001942719,0.000795398,37.9576662,0.001055382,0.003933117,2.52E-05,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Resource use, fossils",MJ,7.044543024,6.569989565,2.209401975,31.36331153,3.899251839,12.44062079,0.069867425,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,"Resource use, minerals and metals",kg Sb eq,3.13E-06,2.73E-06,1.74E-06,55.58484098,1.34E-06,7.65E-06,5.50E-08,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,Water use,m3 depriv.,19.16259394,16.94642546,11.58674707,60.46544171,3.661443112,48.48368612,0.366405114,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,,,,,,,,,,MC_green_2020.XLSX
+Polytunnel,polytunnel,2020,Confidence interval: ,95,,,,,,,,MC_green_2020.XLSX
+Polytunnel,polytunnel,2021,Acidification,mol H+ eq,0.002554491,0.002088679,0.002203752,86.26971039,0.000866642,0.007292826,6.97E-05,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,Climate change,kg CO2 eq,0.490456622,0.404797055,0.465046408,94.81906997,0.177037083,1.250438751,0.014706059,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,Climate change - Biogenic,kg CO2 eq,0.000445185,0.00029045,0.000612673,137.6219767,9.55E-05,0.001892312,1.94E-05,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,Climate change - Fossil,kg CO2 eq,0.489518269,0.403937571,0.464464533,94.88196083,0.176698106,1.247639775,0.014687658,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,Climate change - Land use and LU change,kg CO2 eq,0.000493168,0.000403157,0.000406076,82.34033543,0.0001382,0.001335032,1.28E-05,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Ecotoxicity, freshwater - inorganics",CTUe,2.853917504,2.529674392,15.05463442,527.5076941,-20.43562728,27.40319999,0.476069341,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Ecotoxicity, freshwater - organics - p.1",CTUe,0.86067899,0.684475762,0.687719017,79.90424125,0.242110619,2.576639097,0.021747585,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Ecotoxicity, freshwater - organics - p.2",CTUe,0.052358888,0.041185843,0.039614036,75.65866521,0.016046513,0.156444369,0.001252706,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Ecotoxicity, freshwater - part 1",CTUe,2.412658939,2.213479936,14.89082966,617.1958007,-20.91186749,25.97419921,0.47088938,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Ecotoxicity, freshwater - part 2",CTUe,1.354296442,0.926906841,2.165339029,159.8866365,0.337496574,5.466949417,0.068474032,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Eutrophication, freshwater",kg P eq,8.85E-05,6.69E-05,8.14E-05,92.01521599,2.33E-05,0.000299942,2.57E-06,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Eutrophication, marine",kg N eq,0.002244258,0.001271447,0.00615542,274.274213,0.000374035,0.009290457,0.000194651,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Eutrophication, terrestrial",mol N eq,0.008206052,0.00648069,0.007580584,92.37796379,0.002510826,0.02324427,0.000239719,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Human toxicity, cancer",CTUh,4.05E-09,3.29E-09,5.96E-09,147.1216688,-6.01E-09,1.80E-08,1.89E-10,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Human toxicity, cancer - inorganics",CTUh,9.92E-11,1.87E-10,4.98E-09,5024.126377,-9.70E-09,9.41E-09,1.58E-10,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Human toxicity, cancer - organics",CTUh,3.95E-09,3.14E-09,3.15E-09,79.77951231,1.13E-09,1.18E-08,9.97E-11,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Human toxicity, non-cancer",CTUh,7.93E-09,2.29E-08,1.12E-06,14165.63368,-1.98E-06,1.99E-06,3.55E-08,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Human toxicity, non-cancer - inorganics",CTUh,7.65E-09,2.26E-08,1.12E-06,14695.91734,-1.98E-06,1.99E-06,3.55E-08,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Human toxicity, non-cancer - organics",CTUh,2.86E-10,2.32E-10,2.57E-10,89.76169214,9.65E-11,7.79E-10,8.12E-12,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,Ionising radiation,kBq U-235 eq,0.084627147,0.047943495,0.122575899,144.8422911,0.011752833,0.379923637,0.00387619,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,Land use,Pt,18.37152874,17.0771333,7.233855018,39.37535694,8.696223401,35.14729597,0.228754581,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,Ozone depletion,kg CFC11 eq,1.01E-08,8.26E-09,8.73E-09,86.45889124,3.38E-09,2.60E-08,2.76E-10,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,Particulate matter,disease inc.,2.47E-08,2.04E-08,1.89E-08,76.65186503,8.58E-09,6.57E-08,5.98E-10,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,Photochemical ozone formation,kg NMVOC eq,0.002232959,0.001775765,0.001726922,77.33785483,0.000671748,0.00635292,5.46E-05,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Resource use, fossils",MJ,7.16516155,5.985389831,5.309857547,74.10659914,2.563495819,18.35281868,0.167912439,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,"Resource use, minerals and metals",kg Sb eq,3.92E-06,3.03E-06,5.04E-06,128.6473845,1.14E-06,1.06E-05,1.59E-07,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,Water use,m3 depriv.,18.5120306,11.07578575,27.68323032,149.5418354,-4.375322959,91.11777817,0.875420608,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,,,,,,,,,,MC_green_2021.XLSX
+Polytunnel,polytunnel,2021,Confidence interval: ,95,,,,,,,,MC_green_2021.XLSX
+Polytunnel,polytunnel,2022,Acidification,mol H+ eq,0.002626794,0.002495455,0.000782653,29.79500522,0.001562804,0.004574522,2.47E-05,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,Climate change,kg CO2 eq,0.489324848,0.458942065,0.139979931,28.60674898,0.306944866,0.872050168,0.004426554,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,Climate change - Biogenic,kg CO2 eq,0.000482196,0.000357401,0.000608709,126.2368976,0.000172852,0.00158216,1.92E-05,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,Climate change - Fossil,kg CO2 eq,0.488355969,0.457908494,0.139737961,28.61395588,0.306074854,0.865041399,0.004418902,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,Climate change - Land use and LU change,kg CO2 eq,0.000486683,0.000453023,0.000210323,43.21563729,0.000226502,0.000931252,6.65E-06,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Ecotoxicity, freshwater - inorganics",CTUe,3.031768517,2.99069125,8.437821618,278.313518,-12.61553897,21.43540541,0.266827348,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Ecotoxicity, freshwater - organics - p.1",CTUe,0.845708663,0.798057556,0.291513904,34.46977857,0.441205299,1.57172424,0.009218479,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Ecotoxicity, freshwater - organics - p.2",CTUe,0.051492501,0.048018545,0.01744191,33.87271772,0.027928258,0.091966444,0.000551562,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Ecotoxicity, freshwater - part 1",CTUe,2.582472723,2.447627663,8.344679231,323.1274878,-13.41453057,20.28459701,0.263881927,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Ecotoxicity, freshwater - part 2",CTUe,1.346496959,1.056951778,0.879573816,65.3231194,0.528407762,3.771389007,0.027814566,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Eutrophication, freshwater",kg P eq,8.57E-05,7.75E-05,3.73E-05,43.53588857,3.79E-05,0.000184595,1.18E-06,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Eutrophication, marine",kg N eq,0.002308692,0.001786691,0.001794732,77.73804116,0.000693786,0.007386133,5.68E-05,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Eutrophication, terrestrial",mol N eq,0.008561687,0.008037261,0.00291304,34.0241381,0.004597781,0.01608658,9.21E-05,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Human toxicity, cancer",CTUh,3.80E-09,3.58E-09,4.03E-09,106.1276332,-3.49E-09,1.21E-08,1.28E-10,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Human toxicity, cancer - inorganics",CTUh,-6.36E-11,-1.25E-10,3.73E-09,-5869.93395,-6.83E-09,7.18E-09,1.18E-10,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Human toxicity, cancer - organics",CTUh,3.86E-09,3.62E-09,1.30E-09,33.72655606,2.02E-09,7.07E-09,4.12E-11,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Human toxicity, non-cancer",CTUh,-8.10E-10,-2.50E-08,6.91E-07,-85279.1883,-1.32E-06,1.40E-06,2.18E-08,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Human toxicity, non-cancer - inorganics",CTUh,-1.09E-09,-2.52E-08,6.91E-07,-63275.41564,-1.32E-06,1.40E-06,2.18E-08,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Human toxicity, non-cancer - organics",CTUh,2.82E-10,2.61E-10,9.77E-11,34.67942072,1.72E-10,5.19E-10,3.09E-12,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,Ionising radiation,kBq U-235 eq,0.076391592,0.058273997,0.061736359,80.81564706,0.025288692,0.2485753,0.001952275,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,Land use,Pt,18.53203951,17.54714436,7.677564592,41.42860038,9.452172923,33.16711034,0.24278591,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,Ozone depletion,kg CFC11 eq,9.94E-09,9.43E-09,2.80E-09,28.22184367,6.07E-09,1.73E-08,8.87E-11,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,Particulate matter,disease inc.,2.43E-08,2.29E-08,6.84E-09,28.13910494,1.48E-08,4.07E-08,2.16E-10,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,Photochemical ozone formation,kg NMVOC eq,0.002331046,0.002191365,0.000700763,30.06217816,0.001360222,0.004160279,2.22E-05,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Resource use, fossils",MJ,7.063216969,6.784340325,1.701086888,24.0837411,4.700199491,11.10126817,0.053793091,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,"Resource use, minerals and metals",kg Sb eq,3.78E-06,3.39E-06,1.67E-06,44.29085822,2.08E-06,8.13E-06,5.29E-08,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,Water use,m3 depriv.,16.49579135,16.43199006,7.062170396,42.81195272,1.838136721,29.85471663,0.223325437,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,,,,,,,,,,MC_green_2022.XLSX
+Polytunnel,polytunnel,2022,Confidence interval: ,95,,,,,,,,MC_green_2022.XLSX
+Polytunnel,polytunnel,2023,Acidification,mol H+ eq,0.003496675,0.003281717,0.001076161,30.77668915,0.002081026,0.006247375,3.40E-05,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,Climate change,kg CO2 eq,0.608716394,0.571466716,0.165558892,27.1980341,0.39350974,1.042314633,0.005235432,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,Climate change - Biogenic,kg CO2 eq,0.000696501,0.000511402,0.000645527,92.68133472,0.000236874,0.002326481,2.04E-05,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,Climate change - Fossil,kg CO2 eq,0.60740735,0.570526837,0.165229856,27.20247886,0.392694707,1.040962826,0.005225027,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,Climate change - Land use and LU change,kg CO2 eq,0.000612543,0.000565428,0.000240509,39.26400499,0.000293078,0.001205065,7.61E-06,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Ecotoxicity, freshwater - inorganics",CTUe,3.20220039,3.116026545,9.873308345,308.3288721,-17.23950593,23.23610152,0.312221424,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Ecotoxicity, freshwater - organics - p.1",CTUe,1.131400198,1.060665253,0.405576152,35.84727602,0.559165069,2.09611979,0.012825444,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Ecotoxicity, freshwater - organics - p.2",CTUe,0.065673149,0.062290632,0.021991308,33.48599535,0.035810439,0.118642671,0.000695426,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Ecotoxicity, freshwater - part 1",CTUe,2.880472973,2.808411295,9.814782812,340.7351121,-17.25133071,21.9709734,0.310370684,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Ecotoxicity, freshwater - part 2",CTUe,1.518800765,1.225216081,1.026848267,67.60914869,0.669496106,4.017087914,0.032471793,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Eutrophication, freshwater",kg P eq,0.000104527,9.42E-05,4.81E-05,45.98807191,4.39E-05,0.000225699,1.52E-06,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Eutrophication, marine",kg N eq,0.002541862,0.001939476,0.001880795,73.99279694,0.000862558,0.007994076,5.95E-05,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Eutrophication, terrestrial",mol N eq,0.012019911,0.011042777,0.004530726,37.69351209,0.006212952,0.023228077,0.000143274,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Human toxicity, cancer",CTUh,5.11E-09,4.97E-09,4.42E-09,86.48444031,-3.31E-09,1.46E-08,1.40E-10,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Human toxicity, cancer - inorganics",CTUh,-5.07E-11,-1.17E-11,4.06E-09,-8017.473553,-8.61E-09,7.86E-09,1.29E-10,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Human toxicity, cancer - organics",CTUh,5.16E-09,4.86E-09,1.82E-09,35.19236223,2.63E-09,9.54E-09,5.75E-11,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Human toxicity, non-cancer",CTUh,-8.33E-09,-1.37E-09,7.76E-07,-9314.43328,-1.62E-06,1.54E-06,2.45E-08,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Human toxicity, non-cancer - inorganics",CTUh,-8.67E-09,-1.68E-09,7.76E-07,-8944.686455,-1.62E-06,1.54E-06,2.45E-08,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Human toxicity, non-cancer - organics",CTUh,3.44E-10,3.23E-10,1.05E-10,30.3825322,2.06E-10,6.10E-10,3.31E-12,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,Ionising radiation,kBq U-235 eq,0.092372892,0.071576098,0.078826669,85.33528271,0.0313199,0.330242355,0.002492718,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,Land use,Pt,20.78525704,19.36957921,7.479745091,35.98581955,11.19265544,38.24661255,0.236530308,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,Ozone depletion,kg CFC11 eq,1.20E-08,1.14E-08,3.33E-09,27.8028517,7.57E-09,2.05E-08,1.05E-10,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,Particulate matter,disease inc.,2.95E-08,2.78E-08,8.52E-09,28.85356928,1.80E-08,5.06E-08,2.70E-10,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,Photochemical ozone formation,kg NMVOC eq,0.003340712,0.003102915,0.00113422,33.95144516,0.001868165,0.006056283,3.59E-05,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Resource use, fossils",MJ,8.796258361,8.438830513,2.098121616,23.85243282,5.8085536,14.07501767,0.066348431,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,"Resource use, minerals and metals",kg Sb eq,4.62E-06,4.21E-06,1.76E-06,38.0330524,2.62E-06,9.56E-06,5.56E-08,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,Water use,m3 depriv.,18.24276145,18.41376949,8.502478513,46.60740939,1.922089845,35.33340086,0.268871979,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,,,,,,,,,,MC_green_2023.XLSX
+Polytunnel,polytunnel,2023,Confidence interval: ,95,,,,,,,,MC_green_2023.XLSX

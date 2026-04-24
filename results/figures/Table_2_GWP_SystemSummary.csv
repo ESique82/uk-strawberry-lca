@@ -1,0 +1,4 @@
+"System","N_years","Mean_GWP","SD_across_yrs","Min_GWP","Max_GWP","Avg_CV","Avg_CI_Lower","Avg_CI_Upper"
+"Heated Glasshouse",4,0.99,0.309,0.683,1.316,46.977,0.521,2.07
+"Non-heated Glasshouse",4,0.674,0.103,0.575,0.789,15.609,0.505,0.919
+"Polytunnel",4,0.506,0.072,0.437,0.607,46.98,0.278,1.002
