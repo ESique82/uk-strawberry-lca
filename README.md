@@ -28,7 +28,6 @@ uk-strawberry-lca/
 │   ├── processed/           # Aggregated LCI parameters
 │   └── external/            # Emission factors, IPCC parameters
 ├── docs/
-│   ├── methods_draft_v3.md  # Methods section
 │   ├── supplementary/       # Supplementary tables and materials
 │   └── figures/             # System boundary diagram
 ├── simapro/
@@ -38,7 +37,7 @@ uk-strawberry-lca/
 │   └── python/              # LCA pipeline (alternative to SimaPro)
 ├── results/
 │   ├── monte_carlo/         # Monte Carlo simulation outputs
-│   └── figures/             # Publication-ready figures
+│   └── figures/             # Figures
 └── references/
     └── strawberry_lca_references_v3.ris
 ```
