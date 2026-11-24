@@ -1,7 +1,6 @@
 # UK Strawberry Production LCA
 
-[![DOI](https://img.shields.io/badge/DOI-pending-blue)]()
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22764954.svg)](https://doi.org/10.5281/zenodo.22764954)
 
 Life cycle assessment of protected strawberry (*Fragaria × ananassa*) production systems in the United Kingdom, comparing polytunnels, heated glasshouses, and non-heated glasshouses.
 
@@ -60,21 +59,21 @@ Primary data from a UK commercial strawberry enterprise (anonymised):
 
 ## Methods
 
-Full methods are documented in `docs/strawberry_lca_methods_draft_v3.md`. Key methodological choices:
+Full methods are described in the accompanying manuscript. Key methodological choices:
 
 | Parameter | Value | Justification |
 |-----------|-------|---------------|
 | Functional unit | 1 kg strawberries | Farm gate |
 | EF₁ (direct N₂O) | 0.005 | Soilless substrate, aerobic conditions |
-| Frac_LEACH | 0.10 | Semi-closed fertigation |
+| Frac_LEACH | 0.10 | Semi-open drainage fertigation |
 | Frac_GASF | 0.02 | CAN + drip fertigation |
-| Monte Carlo | 1,000 iterations | Per system-year combination |
+| Monte Carlo | 5,000 iterations | Per system-year combination |
 
 ## Software
 
-- **SimaPro 9.5 — Primary LCA modelling
-- **R 4.x — Data processing, visualisation
-- **Python 3.x — Alternative LCA pipeline 
+- **SimaPro 9.5** — Primary LCA modelling (SimaPro export files are not included in this repository)
+- **R 4.x** — Data processing, visualisation
+- **Python 3.x** — Notebook used alongside R for analysis
 
 ## License
 
