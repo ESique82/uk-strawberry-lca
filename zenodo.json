@@ -1,0 +1,27 @@
+{
+  "title": "A multi-system life cycle assessment of protected strawberry production: data, Monte Carlo results and analysis code",
+  "upload_type": "dataset",
+  "description": "Data, Monte Carlo results and analysis code supporting the manuscript \"A multi-system Life Cycle Assessment of protected strawberry production\" (submitted). The repository contains anonymised production records from a single UK commercial strawberry farm (2020-2023), emission factor parameters, consolidated Monte Carlo results for three protected cultivation systems (unheated polytunnel, non-heated glasshouse, heated glasshouse; 5,000 iterations per system-year), derived tables and figures, analysis scripts (R and Python) and supplementary documentation. Impact assessment used the Environmental Footprint 3.1 (adapted) method with ecoinvent v3.9 in SimaPro 9.5. SimaPro export files are not included.",
+  "creators": [
+    {
+      "name": "Siqueiros, Eric",
+      "affiliation": "Harper Adams University",
+      "orcid": "0000-0002-0053-2686"
+    },
+    {
+      "name": "McAuliffe, Graham",
+      "affiliation": "Harper Adams University",
+      "orcid": "0000-0001-6031-1394"
+    }
+  ],
+  "keywords": [
+    "life cycle assessment",
+    "strawberry",
+    "protected cultivation",
+    "Monte Carlo simulation",
+    "nitrous oxide",
+    "Environmental Footprint"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open"
+}
