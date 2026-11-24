@@ -7,7 +7,7 @@ Life cycle assessment of protected strawberry (*Fragaria × ananassa*) productio
 
 ## Citation
 
-TBD
+Siqueiros, E. and McAuliffe, G. (submitted). A multi-system Life Cycle Assessment of protected strawberry production. Data and code: https://doi.org/10.5281/zenodo.22764954
 
 ## Overview
 
@@ -15,9 +15,10 @@ This repository contains data, methods, and reproducibility materials for a crad
 
 ### Key findings
 
-- Polytunnels achieve ~20% lower climate change impact compared to heated glasshouses
+- Polytunnel production had the lowest climate change impact (0.51 kg CO₂-eq per kg of strawberries), against 0.68 for the non-heated glasshouse and 0.99 for the heated glasshouse, about 49% lower than the heated glasshouse
 - N₂O emissions from soilless coir substrate are substantially lower than IPCC soil defaults
-- System rankings remain robust across sensitivity scenarios
+- The climate change ranking was unchanged across six N₂O emission factor scenarios, including IPCC default values
+- The polytunnel had the highest marine eutrophication impact, which depends on assumed drainage losses that were not measured
 
 ## Repository structure
 
@@ -47,13 +48,13 @@ uk-strawberry-lca/
 ### Production data
 
 Primary data from a UK commercial strawberry enterprise (anonymised):
-- 117 production records across 4 years (2020–2023)
-- Three systems: polytunnel (n=73), heated glasshouse (n=24), non-heated glasshouse (n=20)
+- 113 production records across 4 years (2020–2023)
+- Three systems: polytunnel (n=73), heated glasshouse (n=24), non-heated glasshouse (n=16)
 - Inputs: fertilisers, energy, materials, seedlings, irrigation
 
 ### Background data
 
-- ecoinvent v3.8 (allocation at point of substitution)
+- ecoinvent v3.9 (allocation at point of substitution)
 - Environmental Footprint 3.1 characterisation factors
 - IPCC 2019 Refinement emission factors (adapted for soilless substrate)
 
@@ -71,9 +72,9 @@ Full methods are documented in `docs/strawberry_lca_methods_draft_v3.md`. Key me
 
 ## Software
 
-- **SimaPro 9.x** — Primary LCA modelling
-- **R 4.x** — Data processing, visualisation
-- **Python 3.x** — Alternative LCA pipeline (optional)
+- **SimaPro 9.5 — Primary LCA modelling
+- **R 4.x — Data processing, visualisation
+- **Python 3.x — Alternative LCA pipeline 
 
 ## License
 
